@@ -61,6 +61,9 @@ Commit the reviewed grant before activation:
 git add .agents/ahu/plugins/harness-claude-code.md
 git commit -m 'Grant claude-code native runtime access'
 ahu plugins enable harness-claude-code
+git diff -- .agents/ahu/plugins/harness-claude-code.md
+git add .agents/ahu/plugins/harness-claude-code.md
+git commit -m 'Enable reviewed claude-code runtime'
 ahu plugins list
 ahu setup
 ```
